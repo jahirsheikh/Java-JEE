@@ -48,18 +48,16 @@ public class TestScanner {
 //            sum+=number;
 //        }
 //                System.out.println("Total is "+ sum);
-int n;
-int sum=0;
-
- System.out.println("Enter a number : ");
+        int n;
+        int sum=0;
+        while(true){
+            System.out.println("Enter The number");
             n=sc.nextInt();
-        for(int i=1; i<=n; i++ ){
-        int number=sc.nextInt();
-                sum+= number;
+            if(n<0);
+            break;
+            
+      
+               
         }
-        System.out.println("Total " + sum);
-        
-
-    }
     
 }
